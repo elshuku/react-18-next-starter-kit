@@ -26,6 +26,9 @@ const config: StorybookConfig = {
 
     config.resolve.alias = {
       ...config.resolve.alias,
+      /**
+       * This allows for storybook to resolve nextjs's @/app/.. import notation
+       */
       "@/app": path.resolve(__dirname, "..", "src" , "app"),
     };
     return config;

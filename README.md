@@ -18,6 +18,9 @@ The main principles are:
 - Sign off and first round of feedback from testing teams to be provided directly on stories (and not on a deployed application),
 - All variations of components to be show cased, including the happy path and at least main unhappy paths.
 
+## References
+
+ [ARIA: list role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/list_role) : For testing components using roles, checkout the list of ARIA roles. 
 
 ## Getting Started
 
